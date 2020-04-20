@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "gitpet-9ed1c"
+  },
+  "targets": {
+    "gitpet-9ed1c": {
+      "hosting": {
+        "dog-hunting": [
+          "gitpet-9ed1c"
+        ]
+      }
+    }
   }
 }
