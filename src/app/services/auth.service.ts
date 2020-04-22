@@ -26,7 +26,7 @@ export class AuthService {
     ).then(() => {
         this.snackBar.open(`ようこそGitPetへ!!`, null, {
           duration: 2000
-        })
+        });
     });
     this.router.navigateByUrl('/create');
   }
