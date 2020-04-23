@@ -16,7 +16,7 @@ export class ExpPipe implements PipeTransform {
     if (type === `percent`) {
       return exp / nextExp * 100;
     } else {
-      return exp + ` / ` + nextExp;
+      return exp + ' / ' + nextExp;
     }
   }
 }
